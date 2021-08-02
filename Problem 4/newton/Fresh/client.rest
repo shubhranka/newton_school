@@ -1,0 +1,40 @@
+GET http://localhost:3000/posts 
+x-access-token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMSIsImlhdCI6MTYyNzI4ODc2Nn0.yP2H0VtW_sUnVdI5zUge4yw4yMQbg56048LKozNPxR8
+content-type: application/json
+
+###
+DELETE http://localhost:3000/post/60fe79c2696f1751cba962e3
+x-access-token:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMyIsImlhdCI6MTYyNzI5MTgxMX0.KvJClhckDCT6Wfd-9kbhqLt2sA5MLeR2YQReZYEixEM
+
+###
+
+GET http://localhost:4000/populate
+# POST http://localhost:3000/auth 
+# content-type: application/json
+
+# {
+#     "username": "testuser1",
+#     "password":"test12345"
+# }
+
+# DELETE  http://localhost:3000/post/60fe79c7696f1751cba962f0
+# x-access-token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMSIsImlhdCI6MTYyNzI4ODc2Nn0.yP2H0VtW_sUnVdI5zUge4yw4yMQbg56048LKozNPxR8
+
+# POST http://localhost:3000/post
+# x-access-token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMSIsImlhdCI6MTYyNzI4ODc2Nn0.yP2H0VtW_sUnVdI5zUge4yw4yMQbg56048LKozNPxR8
+# content-type: application/json
+
+# {
+#     "title":"My first post",
+#     "data":"I have written Nothing"
+# }
+
+# POST http://localhost:3000/auth
+# content-type: application/json
+
+# {
+#     "username":"testuser3",
+#     "password":"test12345"
+# }
+# DELETE 
+# x-access-token:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMyIsImlhdCI6MTYyNzI5MTgxMX0.KvJClhckDCT6Wfd-9kbhqLt2sA5MLeR2YQReZYEixEM

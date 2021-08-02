@@ -1,0 +1,115 @@
+div{
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+
+.post__container{
+  /* width: 60%; */
+  /* margin: auto; */
+  position: relative;
+  border-left: 2px yellow solid;
+  border-right: 2px red solid;
+  margin-top: 2rem;
+  border: 1px solid black;
+  box-shadow: 0 0 2px black;
+
+}
+
+.post__title{
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 1rem; 
+}
+
+.post__data{
+  margin: 1rem;
+}
+
+.post__date{
+  color: rgba(0, 0, 0, .5);
+}
+
+.post__date-user{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+.button{
+  border: 1px solid black;
+  padding: .5rem 1rem;
+  box-shadow: 0 0 2px;
+}
+
+/* .text{
+  margin: 1rem;
+} */
+
+.login__container{
+  width: 40%;
+  margin:2rem auto;
+}
+.login__container div{
+  width: 100%;
+  margin: 1rem;
+  border: 2px solid black;
+}
+#username,
+#password{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 2rem;
+}
+
+.login__container .input__button{
+  border: none;
+}
+.input__button .button{
+  width: 50%;
+  margin-left: 0;
+}
+
+.post__delete{
+  position: absolute;
+  top:0;
+  right: 0;
+  height: 100%;
+  width: 20%;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: .3s;
+  cursor: pointer;
+}
+.post__update{
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.post__delete:hover{
+  background-color: red;
+}
+.post__update:hover{
+  background-color: rgb(255, 217, 0);
+}
